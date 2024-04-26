@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    background-color: $color-three;
+    padding: 0 10vw;
+
+    &-logo {
+        height: 100%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    &-items {
+        color: white;
+        &-list {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            column-gap: 32px;
+        }
+    }
+}

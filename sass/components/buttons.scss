@@ -1,0 +1,19 @@
+.button-primary {
+    text-align: center;
+    color: white;
+    background-color: $color-five;
+    border: 1px solid $color-two;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.button-secondary {
+    text-align: center;
+    color: white;
+    background-color: $color-three;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 16px;
+    border-radius: 25px;
+    border: 2px solid $color-five;
+}

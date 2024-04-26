@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  background-color: #436986;
+  padding: 0 10vw;
+}
+.navbar-logo {
+  height: 100%;
+}
+.navbar-logo img {
+  height: 100%;
+}
+.navbar-items {
+  color: white;
+}
+.navbar-items-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 32px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #001D33;
+  color: #D3D8D8;
+}
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2vw;
+}
+.footer-info-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+.footer-info-logo img {
+  width: 100%;
+}
+.footer-info-nav {
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+}
+.footer-info-nav-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.footer-info-nav-section-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.footer-trademark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 16px 0;
+  column-gap: 16px;
+  border-top: 2px solid white;
+}
+
+.item-footer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.button-primary {
+  text-align: center;
+  color: white;
+  background-color: #082133;
+  border: 1px solid #7597B1;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.button-secondary {
+  text-align: center;
+  color: white;
+  background-color: #436986;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 16px;
+  border-radius: 25px;
+  border: 2px solid #082133;
+}
+
+.section-intro {
+  height: 100vh;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/cosas-de-cursos.appspot.com/o/preentrega-movies%2Fbackgrounds%2Fmovie-background-collage%20(2).jpg?alt=media&token=ccb552b3-8036-47c7-9e75-316d778a6ca7");
+  background-size: cover;
+  color: white;
+}
+.section-intro-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  max-width: 36%;
+  padding: 10vw 20vw;
+}
+.section-intro-container-title {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.section-searcher {
+  background-color: #D3D8D8;
+  min-height: 500px;
+}
+.section-searcher-components {
+  padding: 5vw 20vw 5vw 20vw;
+}
+.section-searcher-components-title h2 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.section-searcher-components-searcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2vw;
+  border-bottom: solid 2px #082133;
+  width: 100%;
+  padding-top: 36px;
+  padding-bottom: 120px;
+}
+.section-searcher-components-searcher input {
+  border-radius: 25px;
+  font-size: 1.2rem;
+  padding: 0px 20px;
+  height: 52px;
+  width: 500px;
+}
+
+.section-tendencies {
+  padding: 5vw 20vw;
+  background-color: #436986;
+  color: white;
+}
+.section-tendencies-title h2 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.section-tendencies-container {
+  display: grid;
+  padding-top: 36px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2vw;
+}
+.section-tendencies-container-card {
+  max-width: 250px;
+}
+.section-tendencies-container-card img {
+  width: 100%;
+  height: 100%;
+}
+.section-tendencies-container-card:hover {
+  cursor: pointer;
+}
+.section-tendencies-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 32px 0;
+  column-gap: 16px;
+}
+
+.section-popular {
+  padding: 5vw 20vw;
+  background-color: #D3D8D8;
+}
+.section-popular-title h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.section-popular-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  column-gap: 24px;
+  overflow-x: scroll;
+  padding: 24px;
+}
+.section-popular-container::-webkit-scrollbar {
+  width: 10px;
+}
+.section-popular-container::-webkit-scrollbar-thumb {
+  background-color: #1E415C;
+}
+.section-popular-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.section-popular-container-item {
+  width: 200px;
+}
+.section-popular-container-item img {
+  width: 200px;
+}
+.section-popular-container-item:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
