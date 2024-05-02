@@ -5,6 +5,27 @@
     border: 1px solid $color-two;
     padding: 16px;
     border-radius: 4px;
+    transition: all 500ms ease;
+}
+
+.button-primary-form {
+    text-align: center;
+    color: white;
+    background-color: $color-five;
+    border: 1px solid $color-two;
+    padding: 16px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem;
+    transition: all 200ms ease;
+}
+
+.nav-button{
+    transition: all 200ms ease;
+}
+
+.nav-button:hover{
+    
 }
 
 .button-secondary {
@@ -16,4 +37,31 @@
     padding: 16px;
     border-radius: 25px;
     border: 2px solid $color-five;
+    transition: all 0.3s ease;
+}
+
+.button-secondary:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 5px 3px $color-five;
+
+}
+
+.button-primary-form:hover{
+    cursor: pointer;
+    background-color: $color-three;
+}
+
+.button-primary-form:active{
+    cursor: pointer;
+    background-color: $color-six;
+}
+
+.button-primary:hover{
+    cursor: pointer;
+    background-color: $color-three;
+
+}
+.button-primary:active{
+    cursor: pointer;
+    background-color: $color-six;
 }

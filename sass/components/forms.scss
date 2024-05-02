@@ -1,0 +1,115 @@
+.sign {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cosas-de-cursos.appspot.com/o/preentrega-movies%2Fbackgrounds%2F1000_F_64676022_KYuBJ43JIRLFy8wwsP8dnrh67VB5ehio.jpg?alt=media&token=77cafba5-0c72-4efe-a441-444a727bb7d1");
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+
+
+    .form-sign {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 50%;
+        background-color: $color-five;
+        border-radius: 5px;
+
+        &-title {
+            padding: 32px 0;
+        }
+
+        &-inputs {
+            display: flex;
+            flex-direction: column;
+            row-gap: 24px;
+
+            input {
+                height: 40px;
+                padding: 0px 20px;
+                font-size: 1.2rem;
+                border-radius: 20px;
+                border: 2px solid $color-two;
+                background-color: #333333;
+                color: white;
+            }
+
+            select {
+                height: 40px;
+                padding: 0px 20px;
+                font-size: 1.2rem;
+                border-radius: 20px;
+                border: 2px solid $color-two;
+                background-color: #333333;
+                color: white;
+
+            }
+
+            &-checkbox {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                column-gap: 8px;
+                font-size: 0.8rem;
+            }
+
+            &-button {
+                padding-bottom: 32px;
+                color: grey;
+                display: flex;
+                flex-direction: column;
+                row-gap: 8px;
+            }
+        }
+
+
+    }
+}
+
+.login {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cosas-de-cursos.appspot.com/o/preentrega-movies%2Fbackgrounds%2F1000_F_64676022_KYuBJ43JIRLFy8wwsP8dnrh67VB5ehio.jpg?alt=media&token=77cafba5-0c72-4efe-a441-444a727bb7d1");
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+
+    .form-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 50%;
+        background-color: $color-five;
+        border-radius: 5px;
+
+        &-title {
+            padding: 32px 0;
+        }
+
+        &-inputs {
+            display: flex;
+            flex-direction: column;
+            row-gap: 24px;
+
+            input {
+                height: 40px;
+                padding: 0px 20px;
+                font-size: 1.2rem;
+                border-radius: 20px;
+                border: 2px solid $color-two;
+                background-color: #333333;
+                color: white;
+            }
+            
+            &-button {
+                padding-bottom: 32px;
+                color: grey;
+                display: flex;
+                flex-direction: column;
+                row-gap: 8px;
+            }
+        }
+    }
+}
