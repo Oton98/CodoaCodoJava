@@ -129,7 +129,13 @@ h2 {
 }
 
 .nav-button {
-  transition: all 200ms ease;
+  padding: 8px;
+  height: 100%;
+  transition: all 500ms ease;
+}
+
+.nav-button:hover {
+  box-shadow: 0 0 10px 2px #082133;
 }
 
 .button-secondary {
