@@ -195,37 +195,19 @@ h2 {
 .sign .form-sign-title {
   padding: 32px 0;
 }
-.sign .form-sign-inputs {
+.sign .form-sign-container {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
 }
-.sign .form-sign-inputs input {
-  height: 40px;
-  padding: 0px 20px;
-  font-size: 1.2rem;
-  border-radius: 20px;
-  border: 2px solid #7597B1;
-  background-color: #333333;
-  color: white;
-}
-.sign .form-sign-inputs select {
-  height: 40px;
-  padding: 0px 20px;
-  font-size: 1.2rem;
-  border-radius: 20px;
-  border: 2px solid #7597B1;
-  background-color: #333333;
-  color: white;
-}
-.sign .form-sign-inputs-checkbox {
+.sign .form-sign-container-checkbox {
   display: flex;
   flex-direction: row;
   align-items: center;
   column-gap: 8px;
   font-size: 0.8rem;
 }
-.sign .form-sign-inputs-button {
+.sign .form-sign-container-button {
   padding-bottom: 32px;
   color: grey;
   display: flex;
@@ -253,12 +235,25 @@ h2 {
 .login .form-login-title {
   padding: 32px 0;
 }
-.login .form-login-inputs {
+.login .form-login-container {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
 }
-.login .form-login-inputs input {
+.login .form-login-container-inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.login .form-login-container-button {
+  padding-bottom: 32px;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.input-custom {
   height: 40px;
   padding: 0px 20px;
   font-size: 1.2rem;
@@ -267,12 +262,24 @@ h2 {
   background-color: #333333;
   color: white;
 }
-.login .form-login-inputs-button {
-  padding-bottom: 32px;
-  color: grey;
-  display: flex;
-  flex-direction: column;
-  row-gap: 8px;
+
+.error-empty {
+  border-color: red !important;
+}
+
+.text-error-empty {
+  color: red;
+  font-size: 1rem;
+}
+
+.select-custom {
+  height: 40px;
+  padding: 0px 20px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: 2px solid #7597B1;
+  background-color: #333333;
+  color: white;
 }
 
 .section-intro {

@@ -36,20 +36,23 @@
             <div class="form-login-title">
                 <h1>Iniciar Sesión</h1>
             </div>
-            <div class="form-login-inputs">
-                <input class="form-sign-inputs-input" type="text" name="name" id="name" placeholder="Nombre">
-                <input class="form-sign-inputs-input" type="text" name="password" id="password"
-                    placeholder="Contraseña">
-                <div class="form-login-inputs-button">
-                    <button class="button-primary-form">Registrarse</button>
+            <div class="form-login-container" id="inputsListLogin">
+                <div class="form-login-container-inputs" id="inputName">
+                    <input class="input-custom" type="text" name="name" id="Nombre" placeholder="Nombre">
+    
+                </div>
+                <div class="form-login-container-inputs" id="inputPass">
+                    <input class="input-custom" type="password" name="password" id="Contraseña"
+                        placeholder="Contraseña">
+                </div>
+
+                <div class="form-login-container-button">
+                    <button class="button-primary-form" id="loginButton">Acceder</button>
                     <a href="./sign.html">
                         <p>Registrarse</p>
                     </a>
                 </div>
             </div>
-
-
-
         </form>
     </main>
 
@@ -107,6 +110,7 @@
         </div>
 
     </footer>
+    <script type="module" src="../js/login/login.js"></script>
 </body>
 
 </html>
